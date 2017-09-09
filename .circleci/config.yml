@@ -55,4 +55,8 @@ jobs:
       # - store_artifacts:
       #     path: /tmp/test-results
       #     destination: test-results
-      
+      deployment:
+        production:
+          branch: master
+          heroku:
+            appname: meetingtime404chess
